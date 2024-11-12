@@ -9,8 +9,8 @@ int main() {
     double y, Z;
     cout << "Введіть значення y: ";
     cin >> y;
-    double dob = 1;
-    for (int k = 1; k <= 10; k++) {
+    double dob = 2;
+    for (int k = 2; k <= 10; k++) {
         dob *= log(k * y);
     }
     Z = sin(dob);
